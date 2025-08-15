@@ -162,6 +162,84 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Duplicates Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="animate-scale-in">
+              <img 
+                src="/img/a6542f31-4d38-47ab-9c36-a27f0fb63b47.jpg" 
+                alt="Коллекция различных ключей и брелоков" 
+                className="w-full rounded-2xl shadow-2xl"
+              />
+            </div>
+            <div>
+              <Badge className="mb-4 bg-primary/10 text-primary border-primary/20">
+                Дубликаты
+              </Badge>
+              <h2 className="text-4xl font-bold mb-6">Дубликаты любых ключей и брелоков</h2>
+              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                Изготавливаем точные копии всех типов ключей и брелоков. От простых квартирных 
+                ключей до сложных автомобильных систем доступа.
+              </p>
+              
+              <div className="grid sm:grid-cols-2 gap-6 mb-8">
+                <div className="flex items-start space-x-3">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Icon name="Home" size={24} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-1">Квартирные ключи</h3>
+                    <p className="text-muted-foreground text-sm">Любые домофонные и квартирные замки</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-3">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Icon name="Car" size={24} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-1">Автомобильные</h3>
+                    <p className="text-muted-foreground text-sm">Ключи и брелоки сигнализации</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-3">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Icon name="Building" size={24} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-1">Офисные</h3>
+                    <p className="text-muted-foreground text-sm">Ключи доступа в офисы и здания</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-3">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Icon name="CreditCard" size={24} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-1">Карты доступа</h3>
+                    <p className="text-muted-foreground text-sm">Электронные пропуски и карты</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" className="bg-primary hover:bg-primary/90">
+                  <Icon name="Copy" size={20} className="mr-2" />
+                  Заказать дубликат
+                </Button>
+                <div className="flex items-center text-muted-foreground">
+                  <Icon name="Clock" size={18} className="mr-2" />
+                  <span>Изготовление за 10-15 минут</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section id="about" className="py-20">
         <div className="container mx-auto px-4">
